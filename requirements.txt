@@ -1,0 +1,33 @@
+# API Framework
+fastapi
+
+# ASGI server
+uvicorn[standard]
+
+# HTTP Clients (pick one or both)
+httpx[http2]
+aiohttp
+
+# Queue System (basic built-in or advanced options)
+# For asyncio.Queue (no install needed)
+# For Celery + Redis:
+celery[redis]
+redis  # Python Redis client
+
+# Caching with Redis
+aioredis
+
+# Background workers (asyncio.create_task() is built-in)
+# Already covered if using Celery above
+
+# Persistence layer
+# If using SQLModel (includes SQLAlchemy + Pydantic):
+sqlmodel
+# Optional: databases for fully async PostgreSQL/SQLite
+databases[postgresql,sqlite]
+
+# PostgreSQL driver
+asyncpg
+
+# SQLite driver (optional, usually built-in with Python)
+aiosqlite
