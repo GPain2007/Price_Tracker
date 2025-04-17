@@ -31,3 +31,10 @@ asyncpg
 
 # SQLite driver (optional, usually built-in with Python)
 aiosqlite
+
+# === Docker Services this stack relies on ===
+# These aren’t pip packages but important for docker-compose.yml:
+# - PostgreSQL
+# - Redis
+# - Celery Worker
+# - Web server (uvicorn)
