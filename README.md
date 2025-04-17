@@ -1,4 +1,4 @@
-🚀 Project: Async Price Tracker & Notifier
+#🚀 Project: Async Price Tracker & Notifier
 Goal:
 Build a backend service that pulls product prices from multiple e-commerce APIs, caches the results, queues tasks for refreshing price data, and sends notifications if prices drop.
 
